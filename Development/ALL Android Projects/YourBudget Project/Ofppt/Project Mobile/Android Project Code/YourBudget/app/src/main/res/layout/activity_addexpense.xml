@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+
+            app:srcCompat="@drawable/addincometest333" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+
+            android:background="@drawable/edittextdesign"
+
+
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:hint=" Nom de dépense"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginRight="30dp"
+
+
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="8dp"
+
+
+            android:ems="10"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="8dp"
+            android:ems="10"
+
+            android:hint=" Montant"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+
+<!--                <EditText-->
+<!--                    android:id="@+id/editTextTextPersonName6"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="30dp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginRight="30dp"-->
+<!--                    android:background="@drawable/edittextdesign"-->
+<!--                    android:password="true"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:drawableStart="@drawable/passwordicon"-->
+
+<!--                    android:ems="10"-->
+<!--                    android:hint="  le mot de passe"-->
+<!--                    android:inputType="textPersonName" />-->
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextdesign"
+            android:drawablePadding="8dp"
+
+
+            android:ems="10"
+            android:hint=" Date"
+            android:inputType="textPersonName"
+            android:text="Date"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:drawablePadding="8dp"
+
+
+            android:background="@drawable/edittextdesign"
+
+            android:ems="10"
+            android:hint="  Description"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button"
+            android:gravity="center_horizontal"
+            android:shadowColor="#000000"
+            android:shadowDx="-11"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Ajouter une dépense"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:foregroundGravity="center_horizontal"
+        app:backgroundTint="#ff9811"
+        app:srcCompat="@drawable/homeactionbartwo" />
+
+</LinearLayout>

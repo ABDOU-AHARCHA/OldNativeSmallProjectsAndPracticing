@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewExpense">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:text="vos dépenses"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/listeexpense2test" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="20"
+        android:background="@drawable/background_cicking_cardviews">
+
+    </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:foregroundGravity="center_horizontal"
+        app:backgroundTint="#ff9811"
+        app:srcCompat="@drawable/addactionbutton" />
+
+</LinearLayout>

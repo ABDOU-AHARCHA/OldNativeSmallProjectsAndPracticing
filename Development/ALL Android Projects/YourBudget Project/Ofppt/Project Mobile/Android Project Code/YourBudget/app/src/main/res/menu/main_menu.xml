@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Home"
+        android:icon="@drawable/statistique"
+        android:title="Statistique"/>
+    <item android:id="@+id/income"
+        android:icon="@drawable/income"
+        android:title="Ajouter un revenu"/>
+    <item android:id="@+id/expense"
+        android:icon="@drawable/expense"
+        android:title="Ajouter une dépense"/>
+    <item android:id="@+id/view"
+        android:icon="@drawable/view"
+        android:title="Voir les revenus"/>
+    <item android:id="@+id/view2"
+        android:icon="@drawable/view"
+        android:title="Voir les dépenses"/>
+    <item android:title="Contactez-nous !">
+        <menu>
+            <item android:id="@+id/ContactUs"
+                android:icon="@drawable/contactus"
+                android:title="yourbudget@support-yourbudget.fr"/>
+
+
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Se déconnecter"/>
+        </menu>
+    </item>
+
+</menu>

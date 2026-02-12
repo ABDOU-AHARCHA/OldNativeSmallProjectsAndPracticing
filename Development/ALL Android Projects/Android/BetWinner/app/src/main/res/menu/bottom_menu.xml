@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Betting"
+        android:icon="@drawable/bet"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title="Register"
+        android:icon="@drawable/register"
+        />
+
+    <item
+        android:title=""/>
+
+    <item
+        android:id="@+id/subscriptions"
+        android:title="Login"
+        android:icon="@drawable/login" />
+    <item
+        android:id="@+id/library"
+        android:title="Win"
+        android:icon="@drawable/win" />
+
+</menu>

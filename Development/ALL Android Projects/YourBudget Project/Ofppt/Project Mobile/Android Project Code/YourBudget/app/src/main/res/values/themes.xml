@@ -1,0 +1,153 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.YourBudget" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/font2</item>
+    </style>
+    <style name="mytoast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <item name="stIconStart">@drawable/username3333</item>
+        <item name="stIconEnd">@drawable/username3333</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+<!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="Added">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+<!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/added</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="PasswordUpdate">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/updated</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="OopsUpdate">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/redcancel</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="NotFound">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/notfound</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="LoginSuccess">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/loginsuccess</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="PasswordError">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/passworderror</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="NoData">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/nodata</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+    <style name="Deleted">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/font2</item>
+        <item name="stTextSize">14sp</item>
+        <!--        <item name="stColorBackground">#000</item>-->
+        <!--        <item name="stSolidBackground">true</item>-->
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#000</item>
+        <!--        <item name="stIconStart">@drawable/added</item>-->
+        <item name="stIconEnd">@drawable/deleted</item>
+        <item name="stLength">LONG</item> LONG or SHORT
+        <!--        <item name="stGravity">top</item> top or center-->
+        <item name="stRadius">20dp</item>
+    </style>
+
+</resources>
