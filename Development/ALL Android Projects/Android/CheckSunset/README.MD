@@ -1,4 +1,4 @@
-# 🌅 CheckSunset - Weather App (2021/2022)
+# 🌅 CheckSunset - Weather App 
 
 ## 📝 Overview
 
