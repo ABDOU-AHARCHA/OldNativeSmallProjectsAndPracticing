@@ -1,4 +1,4 @@
-# ❌⭕ Tic-Tac-Toe Android App (2021/2022)
+# ❌⭕ Tic-Tac-Toe Android App 
 
 ## 📝 Overview
 
