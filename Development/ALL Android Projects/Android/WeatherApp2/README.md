@@ -1,16 +1,65 @@
-# Kotlin Small Projects
-This repository contains a collection of small projects written in Kotlin. These projects were created as part of my learning journey with the Kotlin programming language, and are designed to showcase my skills and experience with the language.
+# 🌦️ WeatherApp
 
-## Projects
-### Weather App:
-A simple Android app that displays the current weather for a given location. Built using the OpenWeatherMap API and the Kotlin programming language.
+## 📝 Overview
 
-### Tic-Tac-Toe Game: 
-A console-based Tic-Tac-Toe game written in Kotlin. This game allows two players to play against each other and keeps track of the game state and winner.
+A dynamic Android weather application that provided real-time weather updates based on the user's current GPS location or a manual city search.
 
-### PokeMap Game: 
-An Android app that uses the Google Maps API to display a map of the player's location and nearby Pokemon. Players can move around the map to catch Pokemon and earn points.
+---
 
+## 🚀 Key Features
 
+### 📍 Dual Location Support
+- Automatically detected weather using GPS  
+- Allowed users to search manually for specific cities  
 
-[woooooooooooooooooooooooooooooooooooooooooow!](https://github.com/ABDOU-AHARCHA/Kotlin_Small_Projects/tree/master)
+### 🌡️ Real-time Weather Data
+- Fetched temperature (Celsius)  
+- Displayed weather conditions  
+- Showed city names  
+- Retrieved data using the OpenWeatherMap API  
+
+### 🎨 Dynamic UI
+- Automatically updated weather icons  
+- Displayed conditions such as sunny, cloudy, stormy, etc.  
+- Adapted icons based on weather condition codes  
+
+### 🔄 Smooth Navigation
+- Dedicated `CityFinder` activity for searching  
+- Main dashboard activity for weather display  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Language:** Kotlin  
+- **Networking:** AsyncHttpClient & JsonHttpResponseHandler  
+- **Location Services:** Android LocationManager (GPS_PROVIDER)  
+- **API:** OpenWeatherMap API  
+
+---
+
+## 📂 Project Structure
+
+- `MainActivity.kt` → Handles core logic, location permissions, and networking  
+- `WeatherData.kt` → Model class for JSON parsing and weather icon selection  
+- `CityFinder.kt` → Manages city search and user input  
+- `activity_main.xml` & `activity_city_finder.xml` → Define the modern dark-themed UI  
+- `AndroidManifest.xml` → Configures internet and high-accuracy location permissions  
+
+---
+
+## 🎯 Purpose of the Project
+
+This project was developed to practice:
+
+- Working with third-party APIs  
+- Handling runtime location permissions  
+- JSON data parsing  
+- Multi-activity navigation  
+- Dynamic UI updates based on data  
+
+---
+
+### 👨‍💻 Author
+Abdelilah Aharcha  
+Android Developer (Java & Kotlin)
