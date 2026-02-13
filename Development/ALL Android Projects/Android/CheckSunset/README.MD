@@ -55,4 +55,4 @@ This project was developed to practice:
 
 ### 👨‍💻 Author
 Abdelilah Aharcha  
-Android Developer (Java & Kotlin)
+Mobile Developer
