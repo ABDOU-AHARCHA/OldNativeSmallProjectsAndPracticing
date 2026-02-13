@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomNavigationViewWithNavigationComponent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home</string>
+    <string name="hello_blank_fragment2">Profile</string>
+    <string name="hello_blank_fragment3">Setting</string>
+</resources>
